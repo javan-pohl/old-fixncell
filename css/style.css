@@ -1,0 +1,1450 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#phone-table td{
+  line-height: 100%;
+}
+
+tr:nth-child(even) {background: #F0F0F0}
+tr:nth-child(odd) {background: #FFF}
+
+#phone-table {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+#phone-table .col-3{
+  text-align: center;
+}
+#phone-table .col-4 {
+  text-align: center;
+}
+#phone-table h3 {
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 0;
+}
+/* Global */
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.homecontainer{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+  display:flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.social_container2{
+  width: 90%;
+  margin:auto;
+  overflow:hidden;
+  display:flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #E0E0E0;
+}
+#whats_new {
+  background-color: white;
+}
+
+#whats_new .button{
+      background-color: #0098ff;
+      border: none;
+      color: black;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border: #000000 1px solid;
+      border-radius: 8px;
+}
+#whats_new h3{
+  font-size: 15px;
+}
+
+.whats_new_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.whats_new_box{
+  text-align: center;
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.whats_new_header {
+  text-align: center;
+  }
+
+.whats_new_header h2{
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 200;
+  padding-top: 20px;
+
+}
+
+.map_header h2{
+  max-width: 100%;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: 	#16cdff;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.map_header span{
+  max-width: 100%;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: 	#16cdff;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+#store_info h3 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.store_hours span{
+  text-align: center;
+  display: block;
+font-size: 1.17em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+#store_info th, #store_info br{
+  text-align: left;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+#store_info p{
+  padding: 0px;
+  margin: 0px;
+}
+.store_info_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 0px;
+}
+.store_address{
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+.store_hours{
+  flex-basis: 50%;
+  padding: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.social_icons {
+  margin-top: 10px;
+}
+.social_icons img{
+  height: 40px;
+  margin-right: 10px;
+}
+
+#map{
+  background-color: #E0E0E0;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+#map .box{
+  padding-bottom: 10px;
+}
+
+
+
+.button_computer {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button_computer_appointment {
+     background-color: red;
+     border: none;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 12px;
+
+ }
+ .button_mobile {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: none;
+}
+  .button_mobile_appointment {
+    display:none;
+  }
+.button_appointment {
+   background-color: red;
+   border: none;
+   color: black;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 12px;
+   display: none;
+}
+
+#showcase .button1 {border-radius: 2px;}
+#showcase .button2 {border-radius: 4px;}
+#showcase .button3 {border-radius: 8px;}
+#showcase .button4 {border-radius: 12px;}
+#showcase .button5 {border-radius: 50%;}
+
+/*Header **/
+header{
+
+  width: 100%;
+  background:#0098ff;
+  color:#ffffff;
+  padding-bottom: 1px;
+  min-height: 10px;
+  border-bottom:#000000 3px solid;
+}
+.callBar {
+  background-color: grey;
+  text-align: right;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.header_container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+
+}
+
+.branding {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: red;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 0px;
+}
+
+.branding a {
+  background-color: greenyellow;
+  margin-bottom: 0px;
+  bottom: 0px;
+}
+
+#highlight {
+  background-color: green;
+}
+
+header .mobiletel {
+  display:none;
+}
+
+
+header #highlight, header .current a{
+  color:#000000;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+}
+.header_button{
+  text-align: center;
+}
+
+.navigation {
+  background-color: red;
+}
+.navigation ul{
+  margin-bottom:0px;
+  display: block;
+}
+
+.navigation li{
+  display:inline;
+  padding: 0px 0px 0px 10px ;
+  text-transform: uppercase;
+  font-size:16px;
+}
+/* Showcase */
+#showcase{
+  min-height: 100px;
+  padding-bottom: 15px;
+  padding-top: 80px;
+  background-color: #16cdff;
+  text-align: center;
+  color:black;
+  border-bottom:#000000 2px solid;
+}
+#home_showcase{
+  min-height: 100px;
+  padding-bottom: 5px;
+  padding-top: 50px;
+  background-color: #16cdff;
+  text-align: center;
+  color:black;
+  border-bottom:#000000 2px solid;
+}
+#showcase_small{
+  min-height: 100px;
+  padding-bottom: 15px;
+  padding-top: 80px;
+  background-color: #16cdff;
+  text-align: center;
+  color:black;
+  border-bottom:#000000 2px solid;
+}
+
+#phoneshowcase{
+  min-height: 100px;
+  padding-bottom: 0px;
+  background-color: #16cdff;
+  text-align: center;
+  color:black;
+}
+
+#showcase h1{
+  margin-top: 20px;
+  font-size:55px;
+  font-weight:600;
+  font-family: Arial;
+  margin-bottom: 10px;
+  line-height: 100%;
+}
+#home_showcase h1{
+  margin-top: 20px;
+  font-size:40px;
+  font-weight:600;
+  font-family: Arial;
+  margin-bottom: 5px;
+  line-height: 110%;
+}
+
+#phoneshowcase h1{
+  margin-top: 10px;
+  font-size:45px;
+  font-weight:600;
+  font-family: Arial;
+  margin-bottom: 10px;
+  line-height: 110%;
+}
+#showcase p{
+  font-size:20px;
+}
+
+#showcase a:hover{
+  color:#cccccc;
+}
+
+.select-device-heading{
+  text-align: center;
+  font-family: arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+/* newsletter */
+#newsletter{
+  padding:2px;
+  color:#ffffff;
+  background:#D3D3D3;
+  text-align: center;
+}
+
+#boxes{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+#boxes .box{
+  font-family: arial;
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding:10px;
+  margin-bottom: 30px;
+  background-color: #F0F0F0;
+}
+
+#boxes .box h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size:25px;
+  line-height: 110%;
+}
+
+#boxes .box p{
+  text-align: left;
+
+}
+
+
+#boxes .box img{
+  width:90%;
+}
+
+#boxes .button {
+    background-color: #16cdff;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: #000000 1px solid;
+    border-radius: 2px;
+}
+
+#boxes a:hover{
+  color:#cccccc;
+}
+
+.iphonecontainer{
+  display:flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#boxes .iphonecontainer a{
+  text-decoration: none;
+  color: black;
+}
+#boxes .selectphonebox img{
+  height:230px;
+}
+
+#boxes .selectphonebox{
+  text-align:center;
+  margin: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#boxes .iphonebox img{
+  height:150px;
+}
+
+#boxes .iphonebox{
+  text-align:center;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 10px 0px 10px;
+  border: 1px solid black;
+}
+.select-device-name{
+  text-align: center;
+    margin-top: 0px;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+#boxes .iphonerepairbox{
+  width: 30%;
+  min-width: 320px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 40px;
+  background-color: #cccccc;
+  border-radius: 2px;
+}
+
+#boxes .iphonerepairbox p{
+  text-align: left;
+}
+#boxes .iphonerepairbox img{
+  height: 200px;
+  max-width: 600px;
+}
+#boxes .iphonerepairbox h2{
+  height: min-content;
+}
+
+.selectcontainer{
+  display: flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: stretch;
+}
+
+#boxes .selectbox {
+  text-align: center;
+  min-width: 200px;
+  flex-basis: 27%;
+  background-color: #ffffff;
+  padding: 10px;
+
+  margin: 20px;
+}
+#boxes .selectbox img{
+  max-height: 100px;
+  max-width: 200px;
+}
+#boxes .selectbutton {
+    background-color: #16cdff;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: flex-end;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+#services {
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#services h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+
+}
+#services h4{
+  text-align: center;
+  font-size: 20px;
+
+}
+#services a{
+  text-decoration: none;
+}
+#services .services_inner {
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  width: 80%;
+
+  margin-bottom: 30px;
+  margin-left:20%;
+  padding-bottom: 20px;
+}
+#services .services_models {
+  width: 95%;
+  margin-left: 5%;
+  display:flex;
+  display: row;
+  flex-wrap: wrap;
+}
+#services  ul{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+#services .services_list {
+  width: 100%;
+
+  display:flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#services  li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 7px 15px 7px 15px;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+}
+#phone-boxes{
+
+}
+#boxes .phoneboxlower{
+  text-align:left;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 30%;
+  min-width: 300px;
+
+}
+
+.phonecontainer{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.phonelowercontainer{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+#phone-boxes .phonelowercontainer h2{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: left;
+  background-color: inherit;
+}
+#phone-boxes h2{
+  margin-top: 10px;
+  font-size:35px;
+  font-weight:600;
+  font-family: Arial;
+  margin-bottom: 10px;
+  line-height: 110%;
+  background-color: #cccccc;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.phone-table-line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#phone-table span{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#phone-boxes h5{
+  margin-top: 5px;
+  font-size:15px;
+  font-weight:300;
+  font-family: Arial;
+  margin-bottom: 10px;
+  line-height: 100%;
+}
+#phonetop{
+    order: 2;
+    margin: 10px;
+    vertical-align: middle;
+    width: 60%;
+}
+#leftphoto {
+    order: 1;
+    margin-right: 20px;
+
+}
+#leftphoto img{
+    width: 100%;
+}
+
+
+#phonetop a{
+  color:#FF0000;
+  text-decoration:none;
+  font-weight: 400;
+}
+
+
+#phonetop .savebutton {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 55px;
+}
+#phonetop .schedulebutton {
+    background-color: #16cdff;
+    border: none;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 55px;
+}
+#phonetop .callbutton {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 55px;
+
+}
+
+#boxes .callbutton {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 55px;
+
+}
+
+.aboutcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.innercontact{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+.aboutbox{
+  text-align: center;
+  background-color: #D3D3D3;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-basis: 40%;
+  min-width: 275px;
+
+}
+.mapbox{
+  text-align: center;
+  background-color: #D3D3D3;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-basis: 40%;
+  min-width: 275px;
+}
+.warrantybox{
+  text-align: left;
+  background-color: #D3D3D3;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-basis: 30%;
+  min-width: 225px;
+}
+.warrantybox h2{
+  text-align: center;
+}
+.warrantybox ul {
+  margin-left: 20px;
+}
+.contact1 {
+
+}
+.contact2 {
+
+}
+.contactbutton {
+    background-color: #16cdff;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 85px;
+}
+
+
+.review_header {
+  max-width: 100%;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: 	#16cdff;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.basic_list_header{
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.basic_list_boxes{
+  text-align: center;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+.basic_list_box{
+
+  text-align:left;
+  width: auto;
+  height: auto;
+  margin: 10px;
+
+}
+
+.basic_list_box a{
+  text-decoration: none;
+  color: black;
+}
+.basic_list_main {
+  font-weight: bold;
+}
+.basic_list_sub {
+  font-weight: normal;
+}
+.basic_list_box ul{
+  margin: 15px;
+
+}
+
+.basic_list_box li{
+  margin: 5px;
+
+}
+/*
+footer{
+  padding:20px;
+  border-top: #000000 2px solid;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+*/
+
+.footerContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color:#131212;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media(max-width:1000px) {
+  .footerListContainer {
+    order: 3;
+  }
+
+  .footerListBox {
+    margin-top: 15px;
+  }
+}
+
+.footerContainer a:hover {
+
+  color:#16cdff;
+}
+
+.footerLogoContainer {
+  flex-grow: 1;
+  text-align: center;
+  align-items: center;  
+  background-color: #131212;
+  margin-bottom: auto;
+  padding: 0px 0px 30px 0px; 
+}
+
+.footerLogo img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 10px;
+}
+
+.footerContactButton {
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1.5px solid white;
+  background: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px; 
+  width: 150px;
+}
+
+.footerListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-grow: 2;
+  justify-content: space-around;
+  background-color: none;
+}
+
+.footerListContainer a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footerListBox {
+  background-color: none;
+  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footerListTitleBox {
+  background-color: none;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 7px;
+  vertical-align: top;
+  line-height: 100%;
+}
+
+.footerListItems {
+ 
+  margin-top: 0px;
+  text-align: left;
+  
+}
+
+.footerListItems ul{
+  font-size: 13px;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  border: none;
+}
+
+.footerListItems li {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+ 
+}
+
+@media(max-width:868px) {
+  .footerListItems li {
+    margin: 3px;
+  }
+}
+
+.footerServiceText {
+  font-size: 10px;
+  background-color: none;
+  margin-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footerListUL {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, auto);
+}
+
+.footerListUL2 {
+  display: grid;
+  grid-auto-flow: row;
+
+}
+
+.footerStoreHoursTable tr, .footerStoreHoursTable td{
+  color: white;
+  background-color: #131212;
+  border: none;
+  border-radius: 0px;
+  font-size: 11px;
+  text-align: left;
+
+}
+table.hours-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerStoreHoursTable td:nth-child(2) {
+  text-align: center;
+}
+
+.footerStoreHoursTable th {
+  text-align: center;
+  border: none;
+}
+
+#footerTableDayOfWeek{
+  align: left;
+}
+.footerStoreHoursTable {
+  color: white;
+  background-color: #131212;
+  border: none;
+  border-radius: 0px;
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerRightSide {
+  flex-grow: 1;
+  display: block;
+  background-color: #131212;
+  text-align: center;
+}
+.footerSocialContainer img{
+  height: 30px;
+  margin: 0px 5px 5px 5px;
+}
+
+.lowerFooter {
+  background-color: black;
+  font-size: 13px;
+  color: #16cdff;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.lowerFooter a {
+  text-decoration: none;
+  color: #16cdff;
+  font-size: 12px;
+  border-left: 1px solid #16cdff;
+  padding-left: 8px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+/* **************** Media Quereies****************** */
+@media(max-width:840px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form{
+    float:none;
+    text-align: center;
+    width:95%;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width:95%;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+ .button_computer {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      display: none;
+  }
+  .button_computer_appointment {
+       background-color: red;
+       border: none;
+       color: white;
+       padding: 10px;
+       text-align: center;
+       text-decoration: none;
+       display: none;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+       border-radius: 12px;
+
+   }
+  .button_mobile {
+     background-color: black;
+     border: none;
+     color: white;
+     padding: 6px;
+
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 2px 2px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     cursor: pointer;
+     border-radius: 12px;
+
+
+ }
+ .button_mobile_appointment {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 6px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+
+
+}
+ header #branding{
+   padding-left: 0%;
+ }
+  #phone-boxes {
+    width:100%;
+    margin: 0px;
+  }
+  #phone-boxes h2{
+    font-size: 20px;
+    width:100%;
+    margin:0;
+  }
+  .container{
+    width: 90%;
+  }
+  .selectcontainer{
+    width: 95%;
+    display: flex;
+    display: row;
+    flex-wrap: wrap;
+    align-items:stretch;
+    margin: 0px;
+    padding:0px;
+    justify-content: center;
+  }
+  header{
+    padding-bottom: 5px;
+  }
+  header .mobiletel{
+    display:inline;
+  }
+  header .mobiletel img{
+    height: 20px;
+    padding-top: 5px;
+  }
+  #header_middle{
+    display: none;
+  }
+  #showcase, #home_showcase{
+    min-height: 50px;
+    padding-top: 120px;
+    padding-bottom: 00px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+  #showcase_small{
+    min-height: 50px;
+    padding-top: 85px;
+    padding-bottom: 0px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+
+  #showcase h1{
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size:25px;
+    }
+
+  #home_showcase h1{
+    padding-top: 10px;
+    margin-top: 15px;
+    font-size:25px;
+    line-height: 125%;
+  }
+  #showcase_small h1{
+    margin-top: 10px;
+    font-size:25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #showcase_small .container{
+    padding-bottom: 0px;
+  }
+  #phoneshowcase{
+    padding-top: 50px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+  #phoneshowcase h1{
+    margin-top: 10px;
+    font-size:25px;
+    font-weight:600;
+    font-family: Arial;
+
+  }
+  #boxes .box h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size:25px;
+    line-height: 100%;
+  }
+
+  #boxes .box {
+    font-size:14px;
+    padding:5px;
+    margin-top:0px;
+    line-height: 140%;
+  }
+
+  #boxes .box img{
+    width:50%;
+  }
+  #phonetop{
+      order: 1;
+      width: auto;
+      max-width: 700px;
+      margin-right: 10px;
+      margin-left: 0px;
+  }
+  #leftphoto {
+      order: 2;
+      width: 40%;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 10px;
+  }
+
+  .phonelowercontainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #phone-boxes .phoneboxlower{
+    text-align:left;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-width: 300px;
+  }
+
+  #basic_list .basic_list_boxes{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+
+  .basic_list_box{
+
+    text-align:left;
+    width: auto;
+    margin: 5px;
+
+  }
+  .iphonecontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  #boxes .iphonebox img{
+    height: 100px;
+    margin-bottom: 0px;
+  }
+
+  #boxes .iphonebox{
+    text-align:center;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+
+  .social_container2{
+    width: 100%;
+    text-align: center;
+    display: inline;
+
+  }
+
+.select-device-name{
+    margin-top: 0px;
+    height: auto;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+  }
+
+  .mapbox{
+    text-align: center;
+    background-color: #D3D3D3;
+    margin: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    min-width: 100%;
+    order: -1;
+  }
+
+  .whats_new_box{
+    text-align: center;
+    flex-basis: 100%;
+    padding: 10px;
+  }
+}
