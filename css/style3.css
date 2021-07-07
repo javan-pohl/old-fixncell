@@ -1,0 +1,1234 @@
+
+
+/*Header **/
+
+.callBar {
+  background-color: black;
+  font-size: 13px;
+  text-align: center;
+  padding: 3px 0 3px 0;
+}
+
+header{
+
+  width: 100%;
+  background:#0098ff;
+  color:#ffffff;
+  min-height: 50px;
+  margin: 0 0 0 0 ;
+
+}
+.header_container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+
+}
+
+.branding {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 0px;
+}
+
+.branding a {
+  margin-bottom: 0px;
+  bottom: 0px;
+}
+
+header .mobiletel {
+  display:none;
+}
+
+header #highlight, header .current a{
+  color:#000000;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+}
+.header_button{
+  text-align: center;
+}
+
+.navigation ul{
+  display: inline;  
+}
+
+.navigation li{
+  display:inline;
+  padding: 0px 0px 0px 10px ;
+  text-transform: uppercase;
+  font-size:16px;
+}
+@media(max-width:1080px){
+
+    .header_container {
+        display: inline;
+        text-align: center;
+        /*flex-wrap: wrap;
+        justify-content: center;*/
+    }
+
+    .branding {
+        margin: 0px;
+    }
+
+    .navigation {
+        padding-left: 5%;
+    }
+
+    .navigation ul {
+        display: inline;
+        padding-left: 0px;
+        margin: 0px;        
+    }
+
+    .navigation li {
+        display: inline;
+        padding: 0px 7px 0px 7px;
+        margin: 0px;
+    }
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SHOWCASE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.showcase{
+  width: 100%;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.showcase4{
+  width: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(129,126,126,1) 74%, rgba(0,0,0,1) 100%);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.showcase5{
+  max-height: 500px;
+  width: 100%;
+  background: url('https://www.fixncell.com/img/mobile_iphone_screen_repair_wide_grey.jpg') no-repeat 0 0;
+  background-size: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.showcaseMobileSection {
+  display: none;
+}
+
+.showcaseInner{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.showcaseLeftTextBox {
+  color: black;
+  font-size: 20px;
+  margin:  15% 0px 0px 0px;
+  background: #0098ff;
+  border: 5px solid grey;
+  padding: 15px;
+}
+
+.showcaseLeftTextBox2 {
+  color: white;
+  font-size: 20px;
+  margin:  15% 0px 0px 0px;
+  padding: 15px;
+}
+.showcaseLeft4 {
+  color: white;
+  align-items: center;
+}
+
+.showcaseScheduleButton {
+  text-align: center;  
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  background-color: #16cdff;
+  font-size: 25px;
+  border: 3px solid grey;
+  padding: 5px 10px 5px 10px;
+  margin: 5% 0px 10% 30%;
+}
+
+.showcaseScheduleButton:hover {  
+  background-color: #0098ff;
+  border: 3px solid black;
+}
+
+.showcaseScheduleButton2 {
+  text-align: center;  
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  border: 3px solid white;
+  padding: 5px 10px 5px 10px;
+  margin: 5% 0px 10% 30%;
+}
+
+#showcaseHeader {
+  font-size: 35px;
+  font-weight: bold;
+}
+#showcaseHeader2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.showcaseRight4 {
+  padding-bottom: 0%;
+  margin-bottom: 0px;
+}
+
+.showcaseRight4 img {
+  float: right;
+  margin-bottom: 0%;
+  padding-bottom: 0px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
+@media(max-width:1080px){
+
+        .showcase5 {
+        display: none;
+        }
+
+        .showcaseMobileSection {
+        display: inline-block;
+        background: url('https://www.fixncell.com/img/mobile_iphone_screen_repair_bw.jpg') no-repeat 0 -70px ;
+        background-size: cover;
+        background-position: bottom;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        }
+
+        .showcaseMobile {
+        display: block;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        /*border: 5px solid grey;*/
+        margin: 7% auto auto auto;
+        padding-bottom: 15px;
+        }
+
+        .showcaseMobileInner {
+        width: 80%;
+        margin: 0 auto 0 auto;  
+        font-size: 150%;
+        font-weight: 550;
+        padding: 15px 10px 0px 10px;
+        background: rgb(0, 152, 255, .9);
+        border-radius: 20px;
+        }
+
+        #showcaseMobileHeader {
+        padding-top: 15px;
+        }
+
+        .showcaseMobileInner p {
+        margin-top: 15px;
+        padding-bottom: 15px
+        }
+        .showcaseMobileScheduleButton {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        background: rgb(22, 205, 255, .9);
+        margin-bottom: 15px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+        }
+
+        .showcaseMobileScheduleButton:hover {
+        color: black;
+        background-color: #16cdff;
+        border: 4px solid blue;
+        }
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~WHY US~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.whyUs {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.whyUs h2 {
+    padding: 10px;
+    margin: auto auto 10px auto;
+    text-align: center;
+    border-top: 5px solid #16cdff;
+    border-bottom: 5px solid #16cdff;
+  
+  }
+
+.whyUsBoxes {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+.whyUsTableBox {
+    padding: 5% 5% 5% 5%;
+    width: 25%;
+}
+
+.whyUsPicBox {    
+    width: 75%;
+    height: auto;
+}
+
+.whyUsPicBox img{
+    height: auto;
+    max-height: 500px;
+    max-width: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BODY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background: rgb(186,184,184);
+  background: linear-gradient(90deg, rgba(186,184,184,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(179,179,179,1) 100%);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/BODY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SWIPER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.sliderContainer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  /* background-color: grey; */
+}
+
+.slider {
+  height: 400px;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  /* background: #222; */
+  z-index: 1;
+}
+
+#items {
+  width: 10000px;
+  position: relative;
+  top: 0;
+  left: -470px;
+}
+
+#items.shifting {
+  transition: left .2s ease-out;
+}
+
+.slide {
+  width: 470px;
+  height: 270px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 1s;
+  position: relative;
+  /* background: #FFCF47; */
+}
+.control {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: -20px;
+  /* box-shadow: 1px 1px 10px rgba(0,0,0, .3); */
+  z-index: 2;
+}
+
+.prev, 
+.next {
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.prev {
+  background-color: red;
+  /*background-image: url(./img/left-arrow.png);*/
+}
+
+.next {
+  background-image: url(./img/right-arrow.png);
+  right: -20px;
+}
+
+.prev:active,
+.next:active {
+  transform: scale(1);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/SWIPER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CAROUSEL2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
+}
+
+.carousel2 {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 26px;
+}
+
+.carousel-inner {
+  position: relative;
+  /* overflow: hidden; */
+  width: 70%;
+  height: 200px;
+  margin: auto auto;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  /* -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out; */
+}
+
+/* .carousel-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+} */
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+.carousel-item {
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100%;
+  height: 200px;
+}
+
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+@media(max-width:1080px){
+
+  .carousel-item {
+    font-size: 30px;
+    height: 130px;
+  }
+
+  .carousel-inner {
+    height: 130px;
+    width: 100%;
+  }
+
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/CAROUSEL2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CAROUSEL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+* {
+  outline: none;
+}
+
+.carouselSection {
+    margin-bottom: 50px;
+}
+
+.carouselSection img {
+  pointer-events: none;
+}
+.carousel__box {
+    position: relative;
+    width: 470px;
+    height: 270px;
+    text-align: center;
+    margin: 5px auto auto auto;
+    /* background-color: white; */
+    box-shadow: 1px 4px 10px gray;
+}
+
+.carouselSection h3 {
+    width: 350px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    border-bottom: 3px solid #16cdff;  
+  }
+
+  .carousel__box h4 {
+    width: 75%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;  
+  }
+
+.carousel__box p {
+    position: relative;
+    padding: 0 15px;
+}
+
+.carousel {
+    position: relative;
+    height: 300px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);   
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.carousel__button img {
+    height: 30px;
+}
+
+.carousel__button--left {
+    left: -100px;
+}
+
+.carousel__button--right {
+    right: -100px;
+}
+
+.carousel__track-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0,0,0,.3);
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.carousel__indicator.current-slide {
+    background: rgba(0,0,0,.75);
+}
+
+.is-hidden {display: none;}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/CAROUSEL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN PARAGRAPHS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mainParagraphsContainer {
+  width: 70%;
+  margin: 15px auto;
+  background-color: white;
+
+}
+
+.mainParagraphsContainer h1 {
+  padding: 10px;
+  margin: 15px auto 10px auto;
+  text-align: center;
+  border-top: 5px solid #16cdff;
+  border-bottom: 5px solid #16cdff;
+  width: 50%;
+
+}
+
+.mainParagraphsContainer h2 {
+  text-align: center;
+}
+
+.mainParagraphsContainer p {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+
+
+@media(max-width:1080px){
+
+    .mainParagraphsContainer {
+        width: 100%;
+    }
+
+    .mainParagraphsContainer h1{
+        width: auto;
+        margin: auto;
+    }
+
+    .mainParagraphsContainer p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footerContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color:#131212;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media(max-width:1000px) {
+  .footerListContainer {
+    order: 3;
+  }
+
+  .footerListBox {
+    margin-top: 15px;
+  }
+}
+
+.footerContainer a:hover {
+
+  color:#16cdff;
+}
+
+.footerLogoContainer {
+  flex-grow: 1;
+  text-align: center;
+  align-items: center;  
+  background-color: #131212;
+  margin-bottom: auto;
+  padding: 0px 0px 30px 0px; 
+}
+
+.footerLogo img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 10px;
+}
+
+.footerContactButton {
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1.5px solid white;
+  background: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px; 
+  width: 150px;
+}
+
+.footerListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-grow: 2;
+  justify-content: space-around;
+  background-color: none;
+}
+
+.footerListContainer a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footerListBox {
+  background-color: none;
+  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footerListTitleBox {
+  background-color: none;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 7px;
+  vertical-align: top;
+  line-height: 100%;
+}
+
+.footerListItems {
+ 
+  margin-top: 0px;
+  text-align: left;
+  
+}
+
+.footerListItems ul{
+  font-size: 13px;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  border: none;
+}
+
+.footerListItems li {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+ 
+}
+
+@media(max-width:868px) {
+  .footerListItems li {
+    margin: 3px;
+  }
+}
+
+.footerServiceText {
+  font-size: 10px;
+  background-color: none;
+  margin-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footerListUL {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, auto);
+}
+
+.footerListUL2 {
+  display: grid;
+  grid-auto-flow: row;
+
+}
+
+.footerStoreHoursTable tr, .footerStoreHoursTable td{
+  color: white;
+  background-color: #131212;
+  border: none;
+  border-radius: 0px;
+  font-size: 11px;
+  text-align: left;
+
+}
+table.hours-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerStoreHoursTable td:nth-child(2) {
+  text-align: center;
+}
+
+.footerStoreHoursTable th {
+  text-align: center;
+  border: none;
+}
+
+.footerStoreHoursTable {
+  color: white;
+  background-color: #131212;
+  border: none;
+  border-radius: 0px;
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerRightSide {
+  flex-grow: 1;
+  display: block;
+  background-color: #131212;
+  text-align: center;
+}
+.footerSocialContainer img{
+  height: 30px;
+  margin: 0px 5px 5px 5px;
+}
+
+.lowerFooter {
+  background-color: black;
+  font-size: 13px;
+  color: #16cdff;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.lowerFooter a {
+  text-decoration: none;
+  color: #16cdff;
+  font-size: 12px;
+  border-left: 1px solid #16cdff;
+  padding-left: 8px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+/* **************** Media Quereies****************** */
+@media(max-width:840px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form{
+    float:none;
+    text-align: center;
+    width:95%;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width:95%;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+ .button_computer {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      display: none;
+  }
+  .button_computer_appointment {
+       background-color: red;
+       border: none;
+       color: white;
+       padding: 10px;
+       text-align: center;
+       text-decoration: none;
+       display: none;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+       border-radius: 12px;
+
+   }
+  .button_mobile {
+     background-color: black;
+     border: none;
+     color: white;
+     padding: 6px;
+
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 2px 2px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     cursor: pointer;
+     border-radius: 12px;
+
+
+ }
+ .button_mobile_appointment {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 6px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+
+
+}
+ header #branding{
+   padding-left: 0%;
+ }
+  #phone-boxes {
+    width:100%;
+    margin: 0px;
+  }
+  #phone-boxes h2{
+    font-size: 20px;
+    width:100%;
+    margin:0;
+  }
+  .container{
+    width: 90%;
+  }
+  .selectcontainer{
+    width: 95%;
+    display: flex;
+    display: row;
+    flex-wrap: wrap;
+    align-items:stretch;
+    margin: 0px;
+    padding:0px;
+    justify-content: center;
+  }
+  header{
+    padding-bottom: 5px;
+  }
+  header .mobiletel{
+    display:inline;
+  }
+  header .mobiletel img{
+    height: 20px;
+    padding-top: 5px;
+  }
+  #header_middle{
+    display: none;
+  }
+  #showcase, #home_showcase{
+    min-height: 50px;
+    padding-top: 120px;
+    padding-bottom: 00px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+  #showcase_small{
+    min-height: 50px;
+    padding-top: 85px;
+    padding-bottom: 0px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+
+  #showcase h1{
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size:25px;
+    }
+
+  #home_showcase h1{
+    padding-top: 10px;
+    margin-top: 15px;
+    font-size:25px;
+    line-height: 125%;
+  }
+  #showcase_small h1{
+    margin-top: 10px;
+    font-size:25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #showcase_small .container{
+    padding-bottom: 0px;
+  }
+  #phoneshowcase{
+    padding-top: 50px;
+    background-color: #16cdff;
+    text-align: center;
+    color:black;
+  }
+  #phoneshowcase h1{
+    margin-top: 10px;
+    font-size:25px;
+    font-weight:600;
+    font-family: Arial;
+
+  }
+  #boxes .box h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size:25px;
+    line-height: 100%;
+  }
+
+  #boxes .box {
+    font-size:14px;
+    padding:5px;
+    margin-top:0px;
+    line-height: 140%;
+  }
+
+  #boxes .box img{
+    width:50%;
+  }
+  #phonetop{
+      order: 1;
+      width: auto;
+      max-width: 700px;
+      margin-right: 10px;
+      margin-left: 0px;
+  }
+  #leftphoto {
+      order: 2;
+      width: 40%;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 10px;
+  }
+
+  .phonelowercontainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #phone-boxes .phoneboxlower{
+    text-align:left;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-width: 300px;
+  }
+
+  #basic_list .basic_list_boxes{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+
+  .basic_list_box{
+
+    text-align:left;
+    width: auto;
+    margin: 5px;
+
+  }
+  .iphonecontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  #boxes .iphonebox img{
+    height: 100px;
+    margin-bottom: 0px;
+  }
+
+  #boxes .iphonebox{
+    text-align:center;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+
+  .social_container2{
+    text-align: center;
+    display: inline;
+
+  }
+
+.select-device-name{
+    margin-top: 0px;
+    height: auto;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+  }
+
+  .mapbox{
+    text-align: center;
+    background-color: #D3D3D3;
+    margin: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    min-width: 100%;
+    order: -1;
+  }
+
+  .whats_new_box{
+    text-align: center;
+    flex-basis: 100%;
+    padding: 10px;
+  }
+}
